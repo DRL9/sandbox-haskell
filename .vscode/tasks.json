@@ -6,12 +6,12 @@
         {
             "label": "run",
             "type": "shell",
-            "command": "stack run"
+            "command": "stack run  --system-ghc "
         },
         {
             "label": "build",
             "type": "shell",
-            "command": "stack build"
+            "command": "stack build  --system-ghc "
         }
     ]
 }

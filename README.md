@@ -2,7 +2,7 @@
 
 
 # 工具
-- GHCup: haskell 安装器, 用来管理工具链 `ghcup`
+- GHCup: haskell 安装器, 用来管理工具链 `ghcup tui`
 - GHC: 编译器
 - HLS: LSP
 ## 构建工具
