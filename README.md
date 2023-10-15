@@ -16,5 +16,6 @@
 - 加载文件 `:l filepath`
 - 重新加载所有文件 `:r`
 
-
+## stack
+- `stack repl` 进入 ghci
 
