@@ -26,6 +26,7 @@ source-repository head
 library
   exposed-modules:
       Basic
+      Cookbook.Collection
       Geometry
       Geometry.Cube
       Lib

@@ -6,7 +6,7 @@
         {
             "label": "run",
             "type": "shell",
-            "command": "stack run  --system-ghc "
+            "command": "stack run "
         },
         {
             "label": "build",
