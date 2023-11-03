@@ -30,6 +30,8 @@ library
       Geometry
       Geometry.Cube
       Lib
+      RealWorldHaskell.C01GetStarted
+      RealWorldHaskell.C01WC
       Road
   other-modules:
       Paths_haskell_sandbox

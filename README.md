@@ -15,6 +15,12 @@
 - repl
 - 加载文件 `:l filepath`
 - 重新加载所有文件 `:r`
+- 加载内置模块 `:module modName`
+- 最后一个表达式的值会储存在 `it` 变量
+- `:set +t` 可以每次都输出表达式结果的类型
+- `:unset +t` 取消
+- `:type var` 或 `:t var` 查看类型
+
 
 ## stack
 - `stack repl` 进入 ghci
