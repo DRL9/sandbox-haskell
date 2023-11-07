@@ -33,6 +33,7 @@ library
       RealWorldHaskell.C01GetStarted
       RealWorldHaskell.C01WC
       RealWorldHaskell.C02TypesAndFunctions
+      RealWorldHaskell.C03DefineTypeStreamingFunc
       Road
   other-modules:
       Paths_haskell_sandbox
