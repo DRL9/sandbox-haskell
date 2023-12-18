@@ -34,6 +34,7 @@ library
       RealWorldHaskell.C01WC
       RealWorldHaskell.C02TypesAndFunctions
       RealWorldHaskell.C03DefineTypeStreamingFunc
+      RealWorldHaskell.C04FP
       Road
   other-modules:
       Paths_haskell_sandbox
