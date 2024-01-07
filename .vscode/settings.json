@@ -1,3 +1,13 @@
 {
-    "cSpell.words": ["foldl", "foldr", "ghci", "ghcup", "unlines"]
+    "cSpell.words": [
+        "foldl",
+        "foldr",
+        "fsep",
+        "ghci",
+        "ghcup",
+        "hcat",
+        "softline",
+        "typeclass",
+        "unlines"
+    ]
 }

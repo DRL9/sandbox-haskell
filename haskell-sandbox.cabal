@@ -35,6 +35,12 @@ library
       RealWorldHaskell.C02TypesAndFunctions
       RealWorldHaskell.C03DefineTypeStreamingFunc
       RealWorldHaskell.C04FP
+      RealWorldHaskell.C05Prettify
+      RealWorldHaskell.C05PrettyJSON
+      RealWorldHaskell.C05SimpleJSON
+      RealWorldHaskell.C05WorkingWithJSON
+      RealWorldHaskell.C06TypeClass
+      RealWorldHaskell.C07IO
       Road
   other-modules:
       Paths_haskell_sandbox

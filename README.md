@@ -21,7 +21,14 @@
 - `:unset +t` 取消
 - `:type var` 或 `:t var` 查看类型
 
+## ghc-pkg
+- 包管理工具
+- `ghc-pkg list` 列出安装的包
+
 
 ## stack
 - `stack repl` 进入 ghci
 
+# 目录结构
+- `.cabal` 库的描述信息
+- `Setup.hs` 用来定制构建过程
