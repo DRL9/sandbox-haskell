@@ -41,6 +41,7 @@ library
       RealWorldHaskell.C05WorkingWithJSON
       RealWorldHaskell.C06TypeClass
       RealWorldHaskell.C07IO
+      RealWorldHaskell.C08ByteString
       Road
   other-modules:
       Paths_haskell_sandbox
