@@ -36,6 +36,8 @@ packages:
 # forks / in-progress versions pinned to a git hash. For example:
 #
 extra-deps:
+  - regex-posix-0.96.0.1@sha256:816d6acc560cb86672f347a7bef8129578dde26ed760f9e79b4976ed9bd7b9fd,2925
+  - regex-base-0.94.0.2@sha256:0322b2fcd1358f3355e0c8608efa60d27b14d1c9d476451dbcb9181363bd8b27,2601
   - random-1.2.1.1@sha256:dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9,6541
   - splitmix-0.1.0.4@sha256:db25c2e17967aa6b6046ab8b1b96ba3f344ca59a62b60fb6113d51ea305a3d8e,6537
 # - acme-missiles-0.3
