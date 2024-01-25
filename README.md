@@ -28,6 +28,7 @@
 
 ## stack
 - `stack repl` 进入 ghci
+- 运行 `stack build` ,  会根据 `package.yml` 生成对应的 `*.cabal`
 
 # 目录结构
 - `.cabal` 库的描述信息
