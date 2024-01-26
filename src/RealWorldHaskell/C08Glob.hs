@@ -32,7 +32,7 @@ namesMatching pat | isPattern pat = do
                                         then namesMatching $ dropTrailingPathSeparator dirname
                                     else return [dropTrailingPathSeparator dirname]
                         results <- forM dirnames $ \dir -> ls dir basePat
-                        return $ flatten results
+                        return $ concat results
                   | otherwise = do
                         exists <- doesNameExist pat
                         return (if exists then [pat]
@@ -47,9 +47,6 @@ doesNameExist name = do
                      if fileExist then return True
                      else doesDirectoryExist name
 
-flatten :: [[a]] -> [a]
-flatten [] = []
-flatten (x:xs) = x ++ flatten xs
 
 isHidden ('.':_) = True
 isHidden _       = False

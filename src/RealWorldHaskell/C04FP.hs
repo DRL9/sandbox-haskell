@@ -44,7 +44,7 @@ t2 = init [1,2,3] -- [1,2]
 -- list 没有储存 length ，每次调用 length 都会实时遍历， 遇到无穷数组时会卡住，所以不要随便用 length
 t3 = length []
 t4 = length [1, 2]
--- 平整list
+-- 平整list flat
 t5 = concat [[1], [2,3]]
 -- bool
 t6 = and [True, False]
