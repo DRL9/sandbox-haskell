@@ -45,6 +45,7 @@ library
       RealWorldHaskell.C08Glob
       RealWorldHaskell.C08GlobRegex
       RealWorldHaskell.C08Regex
+      RealWorldHaskell.C09BetterPredicate
       Road
   other-modules:
       Paths_haskell_sandbox
@@ -57,6 +58,7 @@ library
     , directory ==1.3.*
     , filepath ==1.4.*
     , regex-posix >=0.96.0.0 && <1
+    , time >=1.0 && <1.3
   default-language: Haskell2010
 
 executable haskell-sandbox-exe
@@ -74,6 +76,7 @@ executable haskell-sandbox-exe
     , filepath ==1.4.*
     , haskell-sandbox
     , regex-posix >=0.96.0.0 && <1
+    , time >=1.0 && <1.3
   default-language: Haskell2010
 
 test-suite haskell-sandbox-test
@@ -92,4 +95,5 @@ test-suite haskell-sandbox-test
     , filepath ==1.4.*
     , haskell-sandbox
     , regex-posix >=0.96.0.0 && <1
+    , time >=1.0 && <1.3
   default-language: Haskell2010

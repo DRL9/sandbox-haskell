@@ -16,6 +16,9 @@ import System.FilePath (
 
 import Control.Monad (forM)
 import Control.Exception (handle)
+import Control.Exception
+
+
 import Control.Exception.Base (Exception(..),SomeException(..))
 
 import RealWorldHaskell.C08GlobRegex (matchesGlob)
@@ -59,3 +62,19 @@ ls dir pat = do
     let matches = filter (\f -> f `matchesGlob` pat && (not . isHidden) f) files
     return $ map (dir </>) matches
 
+
+
+safeDiv :: Int -> Int -> IO Int
+safeDiv x y = handle divideByZeroHandler $ do
+    putStrLn "Dividing..."
+    return (x `div` y)
+  where
+    divideByZeroHandler :: ArithException -> IO Int
+    divideByZeroHandler e = do
+        putStrLn $ "Caught exception: " ++ show e
+        return (-1)
+
+main :: IO ()
+main = do
+    result <- safeDiv 10 0
+    putStrLn $ "Result: " ++ show result
