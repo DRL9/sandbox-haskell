@@ -27,6 +27,7 @@
 
 
 ## stack
+- `stack setup` 安装 GHC 工具链
 - `stack repl` 进入 ghci
 - 运行 `stack build` ,  会根据 `package.yml` 生成对应的 `*.cabal`
 

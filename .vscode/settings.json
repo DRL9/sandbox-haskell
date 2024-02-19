@@ -6,6 +6,7 @@
         "fsep",
         "ghci",
         "ghcup",
+        "Greymap",
         "hcat",
         "Posix",
         "softline",
